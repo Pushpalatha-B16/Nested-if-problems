@@ -13,7 +13,7 @@ sub2=int(input("sub2:"))
 sub3=int(input("sub3:"))
 avg=(sub1+sub2+sub3)/3
 if avg>=50:
-    if sub1>40 and sub2>40 and sub3>40:
+    if sub1>=40 and sub2>=40 and sub3>=40:
         print("Pass")
     else:
          print("Fail")
